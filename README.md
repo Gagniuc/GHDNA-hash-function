@@ -14,4 +14,4 @@ GHDNA is an experimental hash function for DNA sequences.
 
 # References
 
-- <i>Paul A. Gagniuc. Algorithms in Bioinformatics: Theory and Implementation. John Wiley & Sons, Hoboken, NJ, USA, 2021, ISBN: 9781119697961.</i>
+- <i>Paul A. GAGNIUC and Constantin IONESCU-TÎRGOVIŞTE. GHDNA: a hash function for DNA segment-based aligments and motif search. Proc. Rom. Acad., Series B, 2014, 16(3), p. 155–167.</i>
