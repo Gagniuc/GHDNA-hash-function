@@ -5,8 +5,7 @@ A cryptographic hash function is a one-way function which provides a unique sign
 
 GHDNA is an experimental hash function that takes a DNA sequence as an argument and provides a unique signature in the output. The signature provided by the function is a constant length sequence.
 
-This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found here:
-https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm
+This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found [[here](https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm)]
 
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/1.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/2.png?raw=true" /></kbd>
