@@ -12,6 +12,11 @@ A cryptographic hash function is a one-way function which provides a unique sign
 | TTCGGATCACGGACGTACC    | 98964487625810  |
 | ATCACGGAC              | 59451027176382  |
 
+
+
+The main quality that a cryptographic hashing function must have is to evenly distribute the hashing keys over the domain range. This distribution is determined using the <kbd>GHDNA Domain test</kbd> application.
+
+
 This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found [[here](https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm)]
 
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/1.png?raw=true" /></kbd>
