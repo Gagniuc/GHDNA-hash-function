@@ -11,6 +11,8 @@ A cryptographic hash function is a one-way function which provides a unique sign
 | ATTCGGATCACGGACGTACC   | 44170498343430  |
 | TTCGGATCACGGACGTACC    | 98964487625810  |
 | ATCACGGAC              | 59451027176382  |
+| GGGGGGGGGGGGGGGGGGGGG  | 84454969973368  |
+| ACTT                   | 60847592169125  |
 
 
 
