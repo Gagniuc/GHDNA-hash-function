@@ -3,6 +3,9 @@
 GHDNA is an experimental hash function for DNA sequences.
 
 
+https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm
+
+
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/1.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/2.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/3.png?raw=true" /></kbd>
