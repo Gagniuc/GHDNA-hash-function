@@ -18,3 +18,4 @@ https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm
 # References
 
 - <i>Paul A. Gagniuc and Constantin Ionescu-Tîrgovişte. GHDNA: a hash function for DNA segment-based aligments and motif search. Proc. Rom. Acad., Series B, 2014, 16(3), p. 155–167.</i>
+- <i>P. Gagniuc and C Ionescu-Tirgoviste. Dynamic block allocation for biological sequences. Proc. Rom. Acad., Series B, 2013, 15(3), p. 233-240.</i> 
