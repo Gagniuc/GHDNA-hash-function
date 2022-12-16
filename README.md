@@ -24,13 +24,13 @@ In other words, if a cryptographic hashing function produces 10 hashing keys and
 
 The main quality that a cryptographic hashing function must have is to evenly distribute the hashing keys over the domain range. This distribution is determined using the <kbd>GHDNA Domain test</kbd> application.
 
-The GHDNA and GHDNA DATA BLOCK applications represent the simple version that shows how the GHDNA function can be used directly.
+The <kbd>GHDNA</kbd> and <kbd>GHDNA DATA BLOCK</kbd> applications represent the simple version that shows how the GHDNA function can be used directly.
 
-The GHDNA Avalanche test application demonstrates how tiny changes in the input sequence can generate totally different and unpredictable hashing keys. Collisions are also tested, where it is checked if a hashing key is also associated with another previous imput.
+The <kbd>GHDNA Avalanche test</kbd> application demonstrates how tiny changes in the input sequence can generate totally different and unpredictable hashing keys. Collisions are also tested, where it is checked if a hashing key is also associated with another previous imput.
 
-The GHDNA Speed test application measures the processing time of the GHDNA function in order to be able to compare it with other cryptographic functions (please see the attached article). In terms of processing time, GHDNA is very fast compared to the existing ones, but this speed is a bit relative and may also be due to the lack of complexity when compared to the often used cryptographic hashing functions.
+The <kbd>GHDNA Speed test</kbd> application measures the processing time of the GHDNA function in order to be able to compare it with other cryptographic functions (please see the attached article). In terms of processing time, GHDNA is very fast compared to the existing ones, but this speed is a bit relative and may also be due to the lack of complexity when compared to the often used cryptographic hashing functions.
 
-The GHDNA database engine application uses the GHDNA cryptographic function to perform a demonstration within a primitive database engine.
+The <kbd>GHDNA database engine</kbd> application uses the GHDNA cryptographic function to perform a demonstration within a primitive database engine.
 
 
 This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found [[here](https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm)]
