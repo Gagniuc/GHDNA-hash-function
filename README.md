@@ -21,14 +21,6 @@ The GHDNA project contains a series of independent applications that use the GHD
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/7.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/8.png?raw=true" /></kbd>
 
-
-# About hash functions in general
-An important quality requaired from hash functions is that their hashing keys have associated as few imputations as possible from the set of imputations or the association of multiple imputations should be equally distributed on the key stack.
-
-In other words, if a cryptographic hashing function produces 10 hashing keys and the total of possible imputations is 20 inputs, then it would be ideal for each cryptographic key to be associated with 2 imputations. This example demonstrates how interesting cryptographic functions are and how difficult these ideal situations can be obtained. In the case of GHDNA, the number of keys is 10^14 and the total number of possible arguments tends to infinity. But, from our reference system, in practice it uses a limited number of arguments, because our informational set is limited and guided by the environment.
-
-
-
 # References
 
 - <i>Paul A. Gagniuc and Constantin Ionescu-Tîrgovişte. GHDNA: a hash function for DNA segment-based aligments and motif search. Proc. Rom. Acad., Series B, 2014, 16(3), p. 155–167.</i>
