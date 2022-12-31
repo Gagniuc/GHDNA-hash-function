@@ -1,8 +1,6 @@
 # GHDNA hash function
 
-
-A cryptographic hash function is a one-way function which provides a unique signature for any variable length sequence. Thus, any input leads to a unique output signature of a constant length. GHDNA is an experimental hash function that takes a DNA sequence as an argument and provides a unique signature in the output. The signature provided by the function is a constant length sequence. This project contains a series of independent applications that use the GHDNA hashing function. Some of them are used for testing, and others are used as demo applications.
-
+A cryptographic hash function is a one-way function which provides a unique signature for any variable length sequence from a given finite set. Note that "one-way" means that an input alwais leads to the same output, but not vice versa. Thus, any input leads to a unique output signature of a constant length. GHDNA is an experimental hash function that takes a DNA sequence as an input and provides a unique signature in the output. The signature provided by the function is a constant length sequence of digits, such as: 
 
 | Input  | output |
 | ------------- | ------------- |
@@ -12,15 +10,7 @@ A cryptographic hash function is a one-way function which provides a unique sign
 | TTCGGATCACGGACGTACC    | 98964487625810  |
 | ATCACGGAC              | 59451027176382  |
 
-
-
-A second important quality is that these hashing keys have associated as few imputations as possible from the set of imputations or the association of multiple imputations should be equally distributed on the key stack.
-
-In other words, if a cryptographic hashing function produces 10 hashing keys and the total of possible imputations is 20 inputs, then it would be ideal for each cryptographic key to be associated with 2 imputations. This example demonstrates how interesting cryptographic functions are and how difficult these ideal situations can be obtained. In the case of GHDNA, the number of keys is 10^14 and the total number of possible arguments tends to infinity. But, from our reference system, in practice it uses a limited number of arguments, because our informational set is limited and guided by the environment.
-
-
-
-
+The GHDNA project contains a series of independent applications that use the GHDNA hashing function. Some of them are used for testing, and others are used as a demo for applications.
 
 The main quality that a cryptographic hashing function must have is to evenly distribute the hashing keys over the domain range. This distribution is determined using the <kbd>GHDNA Domain test</kbd> application.
 
@@ -45,6 +35,14 @@ Note: in the BASIC family of computer languages, the "^" character represents ex
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/6.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/7.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/8.png?raw=true" /></kbd>
+
+
+# About hash functions in general
+An important quality requaired from hash functions is that their hashing keys have associated as few imputations as possible from the set of imputations or the association of multiple imputations should be equally distributed on the key stack.
+
+In other words, if a cryptographic hashing function produces 10 hashing keys and the total of possible imputations is 20 inputs, then it would be ideal for each cryptographic key to be associated with 2 imputations. This example demonstrates how interesting cryptographic functions are and how difficult these ideal situations can be obtained. In the case of GHDNA, the number of keys is 10^14 and the total number of possible arguments tends to infinity. But, from our reference system, in practice it uses a limited number of arguments, because our informational set is limited and guided by the environment.
+
+
 
 # References
 
