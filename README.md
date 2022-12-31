@@ -10,22 +10,7 @@ A cryptographic hash function is a one-way function which provides a unique sign
 | TTCGGATCACGGACGTACC    | 98964487625810  |
 | ATCACGGAC              | 59451027176382  |
 
-The GHDNA project contains a series of independent applications that use the GHDNA hashing function. Some of them are used for testing, and others are used as a demo for applications.
-
-The main quality that a cryptographic hashing function must have is to evenly distribute the hashing keys over the domain range. This distribution is determined using the <kbd>GHDNA Domain test</kbd> application.
-
-The <kbd>GHDNA</kbd> and <kbd>GHDNA DATA BLOCK</kbd> applications represent the simple version that shows how the GHDNA function can be used directly.
-
-The <kbd>GHDNA Avalanche test</kbd> application demonstrates how tiny changes in the input sequence can generate totally different and unpredictable hashing keys. Collisions are also tested, where it is checked if a hashing key is also associated with another previous imput.
-
-The <kbd>GHDNA Speed test</kbd> application measures the processing time of the GHDNA function in order to be able to compare it with other cryptographic functions (please see the attached article). In terms of processing time, GHDNA is very fast compared to the existing ones, but this speed is a bit relative and may also be due to the lack of complexity when compared to the often used cryptographic hashing functions.
-
-The <kbd>GHDNA database engine</kbd> application uses the GHDNA cryptographic function to perform a demonstration within a primitive database engine.
-
-
-This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found [[here](https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm)]
-
-Note: in the BASIC family of computer languages, the "^" character represents exponentiation.
+The GHDNA project contains a series of independent applications that use the GHDNA hashing function. Some of them are used for testing, and others are used as a demo for applications. The main quality that a cryptographic hashing function must have is to evenly distribute the hashing keys over the domain range. This distribution is determined using the <kbd>GHDNA Domain test</kbd> application. The <kbd>GHDNA</kbd> and <kbd>GHDNA DATA BLOCK</kbd> applications represent the simple version that shows how the GHDNA function can be used directly. The <kbd>GHDNA Avalanche test</kbd> application demonstrates how tiny changes in the input sequence can generate totally different and unpredictable hashing keys. Collisions are also tested, where it is checked if a hashing key is also associated with another previous imput. The <kbd>GHDNA Speed test</kbd> application measures the processing time of the GHDNA function in order to be able to compare it with other cryptographic functions (please see the attached article). In terms of processing time, GHDNA is very fast compared to the existing ones, but this speed is a bit relative and may also be due to the lack of complexity when compared to the often used cryptographic hashing functions. The <kbd>GHDNA database engine</kbd> application uses the GHDNA cryptographic function to perform a demonstration within a primitive database engine. This experimental hash function also uses a new algorithm called Dynamic Block Allocation (DBA), which can be found [[here](https://github.com/Gagniuc/Dynamic-Block-Allocation-algorithm)]. Note: in the BASIC family of computer languages, the "^" character represents exponentiation.
 
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/1.png?raw=true" /></kbd>
 <kbd><img src="https://github.com/Gagniuc/GHDNA-hash-function/blob/main/img/2.png?raw=true" /></kbd>
